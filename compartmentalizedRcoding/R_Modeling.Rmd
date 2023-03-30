@@ -16,13 +16,13 @@ Ok cool, look at that, our data is ready to go
 ok cool, now let's model salamander abundance as a function of DBH
 we'll make a simple linear model
 ```{r}
-sallysonwoodmodel <- lm(Sallys ~ DBH)
+model <- lm(Sallys ~ DBH)
 ```
 
 ok this is a very simple model, but of course, we often don't have simple models, we have hella complex ones
 so, let's save this model, so we can use another script to actually do some analysis and graphing
 ```{r}
-save(sallysonwoodmodel, file = "./compartmentalizedRcoding/simulatedmodels/sallysonwoodmodel.RData")
+save(model, file = "./compartmentalizedRcoding/simulatedmodels/model.RData")
 ```
 
 Ok we're done here, let's move on. But first, let's clear our environment
