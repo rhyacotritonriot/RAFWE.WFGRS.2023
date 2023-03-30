@@ -1,0 +1,47 @@
+---
+title: "2023 RAFWE WFGRS Workshop"
+author: "Christopher Cousins"
+date: "2023-03-30"
+output: html_document
+---
+
+let's get ggplot
+```{r}
+library(ggplot2)
+```
+
+ok, let's pull in that model, and the datasets
+first we'll set the working drive, then load from there
+```{r}
+setwd("C:/PhD/Git/RAFWE.WFGRS.2023")
+load("./compartmentalizedRcoding/simulatedmodels/model.RData")
+load("./compartmentalizedRcoding/datasetcreation/sallysonwood.RData")
+```
+Ok cool, look at that, our model and datasets is ready to go
+
+ok cool, now let's make a scatter plot with a regression line and confidence intervals
+```{r}
+sallysandwoodplot <- ggplot(model, aes(DBH, Sallys)) +
+  geom_point() +
+  stat_smooth(method = lm)
+
+sallysandwoodplot
+```
+
+so, let's save this plot as a png
+```{r}
+png(file = "./simulatedgraphs/sallygraph.png")
+
+ggplot(model, aes(DBH, Sallys)) +
+  geom_point() +
+  stat_smooth(method = lm)
+
+dev.off()
+```
+
+Ok we're done here, let's move on. But first, let's clear our environment
+```{r}
+rm(list=ls())
+```
+
+Ok close this and let's open the next and final script, to run some analysis

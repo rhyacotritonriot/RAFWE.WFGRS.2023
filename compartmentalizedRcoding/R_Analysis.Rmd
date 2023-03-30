@@ -1,0 +1,47 @@
+---
+title: "2023 RAFWE WFGRS Workshop"
+author: "Christopher Cousins"
+date: "2023-03-30"
+output: html_document
+---
+
+
+ok, let's pull in that model, and the datasets
+first we'll set the working drive, then load from there
+```{r}
+setwd("C:/PhD/Git/RAFWE.WFGRS.2023")
+load("./compartmentalizedRcoding/simulatedmodels/model.RData")
+load("./compartmentalizedRcoding/datasetcreation/sallysonwood.RData")
+```
+Ok cool, look at that, our model and datasets is ready to go
+
+alright, for the final example, let's do some analysis
+```{r}
+summary(model)
+```
+ok, looks like there is no statistical significance between the width of the wood and the amount of sallys on it
+hit that little collapse arrow in the upper right hand corner to minimize the table, and let's move on
+
+ok your pi doesn't believe you, they were so confident in their predictions, so they're gonna need some cold hard data to convince them otherwise. let's get some together.
+
+let's take the confidence intervals and save them
+```{r}
+sadness <- confint(model)
+setwd("C:/PhD/Git/RAFWE.WFGRS.2023")
+save(sadness, file = "./compartmentalizedRcoding/simulatedanalysis/sadness.RData")
+```
+
+your pi should be able to open that, but whoops, turns out they don't know how to use R. no problem, let's make a table
+```{r}
+write.table(sadness, file="./simulatedanalysis/itoldyou.txt", sep = ",", quote = FALSE)
+```
+Now you have a text file with the confidence intervals, gg wp
+
+Ok we're done here, let's move on. But first, let's clear our environment
+```{r}
+rm(list=ls())
+```
+
+Yo it all worked, look at us go. 
+Who woulda thought?
+Not me. :)
