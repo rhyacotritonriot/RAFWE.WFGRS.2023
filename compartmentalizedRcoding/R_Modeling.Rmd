@@ -1,0 +1,33 @@
+---
+title: "2023 RAFWE WFGRS Workshop"
+author: "Christopher Cousins"
+date: "2023-03-30"
+output: html_document
+---
+
+ok, let's pull in those datasets we made
+first we'll se the working drive, then load from there
+```{r}
+setwd("C:/PhD/Git/RAFWE.WFGRS.2023")
+load("./compartmentalizedRcoding/datasetcreation/sallysonwood.RData")
+```
+Ok cool, look at that, our data is ready to go
+
+ok cool, now let's model salamander abundance as a function of DBH
+we'll make a simple linear model
+```{r}
+sallysonwoodmodel <- lm(Sallys ~ DBH)
+```
+
+ok this is a very simple model, but of course, we often don't have simple models, we have hella complex ones
+so, let's save this model, so we can use another script to actually do some analysis and graphing
+```{r}
+save(sallysonwoodmodel, file = "./compartmentalizedRcoding/simulatedmodels/sallysonwoodmodel.RData")
+```
+
+Ok we're done here, let's move on. But first, let's clear our environment
+```{r}
+rm(list=ls())
+```
+
+Ok close this and let's open the next script.

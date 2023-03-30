@@ -1,0 +1,45 @@
+---
+title: "2023 RAFWE WFGRS Workshop"
+author: "Christopher Cousins"
+date: "2023-03-30"
+output: html_document
+---
+
+let's set the seed to be able to reproduce the data
+```{r}
+set.seed(66)
+```
+
+Now let's generate some data!
+Here I'll create a dataset, let's say they're DBH measurements (look I'm being nice to the forestry folks)
+I'll call the dataset DBH, and have it pull 16 values from a normal distribution, with a mean of 6 and sd of 2
+```{r}
+DBH <- rnorm(n = 16, mean = 6, sd = 2)
+```
+
+Ok, now we have 16 DBH measurements!
+
+Now, let's make another dataset.
+This one will be abundances for clouded salamanders found in each tree (now it's the wildlife people's turn to be happy)
+I'll call the dataset Sallys, and have it pull 16 values from a normal distribution, with a mean of 20 and sd of 6
+```{r}
+Sallys <- rnorm(n = 16, mean = 20, sd = 6)
+```
+
+Great! Now this isn't a lot of code, but often when we're preparing data for analysis it's A TON OF CODE!
+
+It can be annoying to have to run through code a lot, 
+so let's just export these datasets to our github to use in another script.
+First we'll set the working directory to the github folder (This is where you'll have to change this to match your PC)
+Then we'll export this to the github folder
+```{r}
+setwd("C:/PhD/Git/RAFWE.WFGRS.2023")
+save(DBH, Sallys, file = "./compartmentalizedRcoding/datasetcreation/sallysonwood.RData")
+```
+
+Ok we're done here, let's move on. But first, let's clear our environment
+```{r}
+rm(list=ls())
+```
+
+Ok close this and let's open the next script.
