@@ -8,7 +8,8 @@ I'm looking forward to the workshop, and getting y'all started on your journey t
 3. Download and install [Github Desktop](https://desktop.github.com)
 
 ### Optional Flashy Choice 
-<img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/01/Tengen-Uzui-Demon-Slayer-Sound-Hashira.jpg" width = "350" height = "175">
+
+<img src="https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/tengen.jpg" width = "350" height = "175">
 
 What you're reading right now is a Markdown file called 'readme' in the 'StartHereFriends' folder in the RAFWE.WFGRS.2023 Github Repository. 
 The text that you're seeing is written in the Markdown syntax, so it uses Markdown syntax to change headings, bold text, add links, add photos, etc.
