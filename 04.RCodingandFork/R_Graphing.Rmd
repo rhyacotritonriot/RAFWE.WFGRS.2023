@@ -14,8 +14,8 @@ ok, let's pull in that model, and the datasets
 first we'll set the working drive, then load from there
 ```{r}
 setwd("C:/PhD/Git/RAFWE.WFGRS.2023")
-load("./compartmentalizedRcoding/simulatedmodels/model.RData")
-load("./compartmentalizedRcoding/datasetcreation/sallysonwood.RData")
+load("./04.RCodingandFork/simulatedmodels/model.RData")
+load("./04.RCodingandFork/datasetcreation/sallysonwood.RData")
 ```
 Ok cool, look at that, our model and datasets is ready to go
 
