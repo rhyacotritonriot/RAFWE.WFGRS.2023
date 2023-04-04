@@ -34,7 +34,7 @@ First we'll set the working directory to the github folder (This is where you'll
 Then we'll export this to the github folder
 ```{r}
 setwd("C:/PhD/Git/RAFWE.WFGRS.2023")
-save(DBH, Sallys, file = "./compartmentalizedRcoding/datasetcreation/sallysonwood.RData")
+save(DBH, Sallys, file = "./04.RCodingandFork/datasetcreation/sallysonwood.RData")
 ```
 
 Ok we're done here, let's move on. But first, let's clear our environment
