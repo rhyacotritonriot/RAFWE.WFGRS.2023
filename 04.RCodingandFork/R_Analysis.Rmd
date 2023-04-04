@@ -10,8 +10,8 @@ ok, let's pull in that model, and the datasets
 first we'll set the working drive, then load from there
 ```{r}
 setwd("C:/PhD/Git/RAFWE.WFGRS.2023")
-load("./compartmentalizedRcoding/simulatedmodels/model.RData")
-load("./compartmentalizedRcoding/datasetcreation/sallysonwood.RData")
+load("./04.RCodingandFork/simulatedmodels/model.RData")
+load("./04.RCodingandFork/datasetcreation/sallysonwood.RData")
 ```
 Ok cool, look at that, our model and datasets is ready to go
 
@@ -28,7 +28,7 @@ let's take the confidence intervals and save them
 ```{r}
 sadness <- confint(model)
 setwd("C:/PhD/Git/RAFWE.WFGRS.2023")
-save(sadness, file = "./compartmentalizedRcoding/simulatedanalysis/sadness.RData")
+save(sadness, file = "./04.RCodingandFork/simulatedanalysis/sadness.RData")
 ```
 
 your pi should be able to open that, but whoops, turns out they don't know how to use R. no problem, let's make a table
