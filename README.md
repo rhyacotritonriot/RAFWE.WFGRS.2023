@@ -8,10 +8,10 @@ The goal of this workshop is to get you started using github, primarily to organ
 This workshop is broken down into six main components:
 
 0. [Preparation](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/StartHereFriends) (to be done **before** the workshop, for real, we're **not** doing this during the workshop homie)
-1. [Introduction to Github (lecture component)](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/WhatsaRepo)
-2. [Making a Github Repo](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/MakingYourOwnRepo)
-3. [Cloning, Pushing, and Pulling with the Repo](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/CloningPushingPullingohmy)
-4. [Compartmentalized coding with the power of repos](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/compartmentalizedRcoding)
-5. [A taste of what else you can do (brief lecture component)](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/BoundlessPossibilities)
+1. [Introduction to Github (lecture component)](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/01.Intro)
+2. [Making a Github Repo](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/02.MakeRepo)
+3. [Cloning, Pushing, and Pulling with the Repo](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/03.PushPull)
+4. [Compartmentalized coding with the power of repos](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/04.RCodingandFork)
+5. [A taste of what else you can do (brief lecture component)](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/05.BeyondIntro)
 
 Hopefully, by the end of this workshop you'll have a solid foundation to begin using github in your everyday work flow, and you'll find it much easier to back up your data, and remember exactly where you were the last time you worked on a project.
