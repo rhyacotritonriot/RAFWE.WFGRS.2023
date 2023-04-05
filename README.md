@@ -8,8 +8,8 @@ The goal of this workshop is to get you started using github, primarily to organ
 This workshop is broken down into six main components:
 
 0. [Preparation](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/StartHereFriends) (to be done **before** the workshop, for real, we're **not** doing this during the workshop homie)
-1. [Introduction to Github (lecture component)](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/0.Intro)
-2. [Making a Github Repo](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/0.MakeRepo)
+1. [Introduction to Github (lecture component)](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/01.Intro)
+2. [Making a Github Repo](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/02.MakeRepo)
 3. [Cloning, Pushing, and Pulling with the Repo](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/03.PushPull)
 4. [Compartmentalized coding with the power of repos](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/04.RCodingandFork)
 5. [A taste of what else you can do (brief lecture component)](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/05.BeyondIntro)
