@@ -1,74 +1,90 @@
 # Here we'll learn about what makes github repos so useful, the ability to backup data and move seamlessly between workstations
+---
 Well, we've made a repo, but what can we *do* with it? 
 
-Well, one thing we can do is make new files on our local machine, and then 'push' them to our repository, so we can later 'pull' them on another machine.
+Quite a bit, as it turns out! Imagine that you just got a new laptop, and a new office computer. Awesome, right? Must be nice. **BUT** now you have to get all of your work onto 2 PC's. Annoying. 
 
-Let's do that! 
+With github though, it's very easy! 
 
-The first thing we'll need to do is open up google desktop, and click on the top left spot where it says 'current repository'
+The first step is to clone your repository onto your laptop. 
 
-![PushPull](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.1.jpg?raw=true)
+Open up Github desktop. If you click on the top left box under the file menu, it will show you all of your cloned repos. Yours will likely be blank, but that's ok!
 
----
-
-Ok, click on 'add', and select the repository that you just made, edit the local path to where you want it on your local machine, and hit clone
-
-![PushPull](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.2.jpg?raw=true)
+![Github Desktop](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.1.jpg?raw=true)
 
 ---
 
-You should now see the name of your repository listed as your current repository, and everything else is blank, because there's no changes and it's linked up to the most current version
+Next, click on the add button, and a drop down will open, click on the 'clone repository' option, you'll then see the repositories you have access to. Click on the one that you made, and set a local path for the folders and files to download to. I keep all my repos in a 'Git' folder, for easy keeping. Then, hit the clone button!
 
-![PushPull](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.3.jpg?raw=true)
-
----
-
-Now, open your file explorer of choice. Navigate to the repo, and create a new folder. Name it whatever you want.
-
-![PushPull](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.4.jpg?raw=true)
+![Github Desktop](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.2.jpg?raw=true)
 
 ---
 
-Import some data into this folder, or, alternatively, right click and make a new word file (or whatever really)
+It will download your repo to your local PC. Awesome right, now all of your files and code are right there. 
 
-![PushPull](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.5.jpg?raw=true)
+Now, Github desktop should show your repository name, and you'll see a lot of empty, because it's fully updated. 
 
----
-
-Now, open up github desktop. It should automatically notice that there's changes, but just to be sure, click the 'fetch origin' button
-
-![PushPull](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.6.jpg?raw=true)
+![Github Desktop](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.3.jpg?raw=true)
 
 ---
 
-Ok, we want to make sure the changes that we made are updated to our online repo. Here you'll need to edit your 'commit' message. This tracks what you did each time you update your repo. I typed 'imported data into a new folder' right above the 'commit to main' button, but you can type whatever you want. Go ahead and type something that describes what you did, and click 'commit'
+We work on our computers though, not on github itself, generally speaking. So, let's upload some data. Open up the space on your local machine where you made the repo, and go to the repo file. Make a new folder 
 
-![PushPull](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.7.jpg?raw=true)
-
----
-
-Ok great! **BUT it's not done yet!!** You have to now make sure you 'push' this change to the origin repo. Go ahead and hit the 'push origin' button.
-
-![PushPull](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.8.jpg?raw=true)
+![Github Desktop](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.4.jpg?raw=true)
 
 ---
 
-You should now see github desktop showing that it's just good to go, no local changes are detected
+Now, in that folder, upload some data. Or just make an empty word document like I did, whatever. 
 
-![PushPull](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.9.jpg?raw=true)
-
----
-
-Go back online to github, and look at your repo. You should see that new folder!
-
-![PushPull](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.10.jpg?raw=true)
+![Github Desktop](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.5.jpg?raw=true)
 
 ---
 
-Click on the folder, and you'll see your data file, as well as the commit message!!
+Now open github desktop back up. Click that fetch origin box in the top right. That checks your local folder with the online repo. It looks like it saw that we have a new folder and a new document on our local machine that isn't on our online repo. 
 
-![PushPull](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.11.jpg?raw=true)
+![Github Desktop](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.6.jpg?raw=true)
 
 ---
 
-## That's it, you did it! 
+We'll want to make sure that's backed up, so on the bottom left, enter a commit message for the change that you made, then hit 'commit to main'
+
+![Github Desktop](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.7.jpg?raw=true)
+
+---
+
+Ok, you've made the commit, ***but, and this is a very big but, it's not backed up online yet*** 
+
+You'll have to click 'push origin' to push your changes to your online repo. Do that now
+
+![Github Desktop](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.8.jpg?raw=true)
+
+---
+
+It'll upload your data, and then you should see this, which just means your local files are up to date with your repo
+
+![Github Desktop](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.9.jpg?raw=true)
+
+---
+
+Now, go back online, looking at github on your browser. You should see the new folder where you uploaded data, the commit message you entered, and then the time you did it
+
+![Github Desktop](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.10.jpg?raw=true)
+
+---
+
+Click on the folder, and there's your data
+
+![Github Desktop](https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/blob/main/image.files/pushpull.11.jpg?raw=true)
+
+---
+
+If this seems exceedingly simple, that's because ***it is***. Which is great, because it makes keeping all of your files AND the history of your work very simple. 
+
+Integrate this into your daily workflow, and you'll find transferring between workstations to be exceedingly easy, and you can even go back to your commit messages and see what you did, and why. 
+
+
+
+
+
+
+
