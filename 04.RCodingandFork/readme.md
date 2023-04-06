@@ -56,4 +56,12 @@ Awesome! Now, open up file explorer, and you'll see that the whole repo and all 
 
 # Great, now we're ready to continue on to the compartmentalized R coding section
 
-Go ahead and open the [folder](https://www.github.com/rhyacotritonriot/RAFWE.WFGRS.2023/04.RCodingandFork) containing the R markdown files and the folders for all of the output for each file. 
+Go ahead and open the [folder](https://https://github.com/rhyacotritonriot/RAFWE.WFGRS.2023/tree/main/04.RCodingandFork) containing the R markdown files and the folders for all of the output for each file. 
+
+Run them in this order:
+1. R_Simulate
+2. R_Modeling
+3. R_Graphing
+4. R_Analysis
+
+**Important Note: You'll need to change the path in the 'set working directory' code to the one you forked the repo to for the code to run, do this for each script**
