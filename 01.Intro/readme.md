@@ -18,4 +18,4 @@ This is awesome, because it serves as both a backup for your data, as well as a 
 That's pretty much the basics, but there's a lot more too. 
 ---
 
-There's a lot of sources of information about github, so I don't want to reinvent the wheel. This [site](www.gitkraken.com/learn/git/tutorials/what-is-a-git-repository) is a good resource for understanding more about the basic information about what repositories are, as well as beginner, intermediate, and advanced tutorials. 
+There's a lot of sources of information about github, so I don't want to reinvent the wheel. This [site](https://gitkraken.com/learn/git/tutorials/what-is-a-git-repository) is a good resource for understanding more about the basic information about what repositories are, as well as beginner, intermediate, and advanced tutorials. 
